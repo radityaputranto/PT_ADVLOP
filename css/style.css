@@ -105,6 +105,12 @@ img {
   .bg-tosca{
     background: #47C9AE;
   }
+  .hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
 /*end global sett*/
 /*custom*/
 .header-style-2 {
