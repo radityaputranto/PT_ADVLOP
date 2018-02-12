@@ -15,6 +15,7 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/pricing.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     
   </head>
 
@@ -38,7 +39,7 @@
                 <a class="nav-link" href="advlop.com/blog">Blog</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Pricing <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Produk <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://goo.gl/forms/2AnQSnhuEy33effu2">Contact</a>
@@ -48,15 +49,24 @@
           </div>
           </div>
         </nav>
+        <!-- tombol pilihan produk -->
+        <div class="row justify-content-center tombol-pilihan" >
+          <button class="btn btn-common" id="slon">SLON</button>
+          <button class="btn btn-common" id="ezpy">EZPY</button>
+        </div>
+
+
+<!-- detail slon -->
+      <div class="detail-slon animated fadeInRightBig">
         <div class="row justify-content-center judul" id="about">
-              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 gerak fadeInDown">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 ">
                 <img src="assets/SLON.png">
               </div>  
             </div>
             <center><div class="garis"></div></center><br><br>
         
         <div class="container penjelasan">
-          <div class="row row-padded row-bordered row-centered gerak fadeInUpBig">
+          <div class="row row-padded row-bordered row-centered ">
               
               <div class="col-sm-6">
                 
@@ -104,13 +114,13 @@
                </div>
 
                   </p>
-                 <a class="btn btn-common" target="_blank" href="https://goo.gl/forms/2AnQSnhuEy33effu2">Kontak Kami</a>
+                 <a class="btn btn-common" target="_blank" href="https://goo.gl/forms/2AnQSnhuEy33effu2">Pesan Produk</a>
               </div>
           </div>
         </div>
 
 
-        <div class="container">
+        <div class="container ">
           <div class="row">
               
               <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
@@ -211,15 +221,50 @@
 
             </div><!-- end row -->
           </div><!-- end container -->
+        </div>
+<!-- akhir detail slon -->
+        
+<!-- detail ezpy -->
+        <div class="detail-ezpy animated fadeInRightBig">
+          <div class="row justify-content-center">
+            <img src="assets/bg-ezpy.jpg" alt="" class="img-responsive bg-ezpy">
+            <h1 class="txt-ezpy">COMING SOON</h1>
+          </div>
+        </div>
+<!-- akhir  -->
+
+
+
 
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- js untuk seleksi slon dan ezpy -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".detail-ezpy").hide();
+        /*klik tombol slon*/
+        /*klik tombol slon*/
+    $("#slon").click(function(){
+        $(".detail-slon").show();
+        $(".detail-ezpy").hide();
+       /* $(".detail-ezpy").addClass("animated fadeOutLeft");*/
+        /*$(".detail-ezpy").hide();*/
+    });
+    $("#ezpy").click(function(){
+        /*$(".detail-slon").addClass("animated fadeOutLeft");*/
+        $(".detail-slon").hide();
+        $(".detail-ezpy").show();
+    });
+});
+    </script>
+    <!-- untuk animate css -->
+
   </body>
 </html>

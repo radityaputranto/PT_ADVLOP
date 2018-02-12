@@ -1,3 +1,9 @@
+.tombol-pilihan{
+  margin-top: 40px;
+}
+#slon{
+  margin-right: 20px;
+}
 .sub-title {
     font-size: 14px; }
 .nomor{
@@ -135,3 +141,15 @@ margin-left: 30px;}*/
     padding: 15px 0px 30px; }
     .pricing-table-block .plan-signup a {
       text-transform: uppercase; }
+
+
+/*coming soon*/
+.bg-ezpy {
+    position: relative;
+}
+
+.txt-ezpy {
+    position: absolute;
+    margin-top: 15%;
+    font-size: 60px;
+}

@@ -122,7 +122,7 @@ img {
 padding-bottom: 40px;}
 
 .hero-content-v2 {
-  margin-top: 144px; }
+  margin-top: 7%; }
   .hero-content-v2 h3 {
     font-size: 24px;
     color: #2f3542;
@@ -157,7 +157,7 @@ padding-bottom: 40px;}
 /*header*/
 
 .mockup-slon{
-  width: 250px;
+  width: 100%;
   display: block;
     margin-left: auto;
     margin-right: auto;
@@ -165,7 +165,7 @@ padding-bottom: 40px;}
 
 /*bagian about*/
 #about {
-  padding: 30px 0; }
+  padding: 50px 0; }
 
 .about h5 {
   font-size: 24px; }
@@ -368,7 +368,7 @@ a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {
     color:#fff;
 }
  .playstore-img:hover{
-   box-shadow: 10px 10px 40px #fff;
+   box-shadow: 10px 10px 40px #000;
  }
   #download .download-icon {
     color: #fff;
