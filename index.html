@@ -19,7 +19,14 @@
   </head>
 
   <body >
-    
+        <!-- halamn loading -->
+        <div class="preloader">
+          <div class="loading">
+            <img src="assets/loading.gif" width="80">
+            
+          </div>
+        </div>
+        <!-- halamn loading -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-tosca sticky-top">
           <div class="container">
           <a class="navbar-brand" href="#">
@@ -330,12 +337,12 @@
             </div>
             <div class="col-sm-4  text-center">
               <i class="download-icon fa fa-users"></i>
-              <h3 class="timer" id="coffee" data-to="234" data-speed="2000">234</h3>
+              <h3 class="timer"  data-to="234" data-speed="15000">234</h3>
               <h5 class="download-title">Active Users</h5>
             </div>
             <div class="col-sm-4  text-center">
               <i class="download-icon fa fa-download"></i>
-              <h3 class="timer" id="emails" data-to="934" data-speed="2500">970</h3>
+              <h3 class="timer"  data-to="934" data-speed="15000">970</h3>
               <h5 class="download-title">Download</h5>
             </div>
          
@@ -498,17 +505,12 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-    
-   <!--  <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script> -->
+  
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- javascript untuk filter portfolio -->
     <script src="js/jquery.mixitup.js"></script>
-    <!-- cek scroll -->
-    <!-- <script src="js/viewportchecker.js"></script> -->
-   <!--  <script src="js/jquery.waypoints.min.js"></script> -->
 
- 
     <!-- js untuk map -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVgeD9dk8eAsqy08HlvOlKtDosgzfui4U&callback=initMap"></script>
     <script src="js/map.js"></script>       
@@ -524,6 +526,8 @@
   </script>
   <script>
     $(document).ready(function() {
+      //loading
+      $(".preloader").fadeOut();
       //MixitUp
       $(function() {
         $('#portfolio').mixItUp();
@@ -531,19 +535,6 @@
     });
   </script>
 
-  <!-- untuk control animate css -->
- <!--  <script>
-    $(document).ready(function(){
- 
-  // hide our element on page load
-  $('#element-to-animate').css('opacity', 0);
- 
-  $('.gerak').waypoint(function() {
-      $('.gerak').addClass('animated');
-  }, { offset: '50%' });
- 
-});
-  </script> -->
   <script src="js/aos.js"></script>
    <script>
       AOS.init({
