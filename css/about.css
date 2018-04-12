@@ -1,0 +1,221 @@
+/*global sett*/
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat:700");
+/* Typography */
+body{
+    background: url(../img/team/bg-team.jpg);
+    background-size: 100% auto;
+
+    background-repeat: no-repeat;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 0; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 26px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+a {
+  color: #32D7B4;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  outline: 0 !important; }
+  a:hover, a:active, a:focus {
+    color: #D14E63;
+    text-decoration: none; }
+
+.navbar{
+  background: #32D7B4 ;
+}
+.header{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.garis{
+  background-color: #32D7B4;
+  height: 5px;
+  width: 80px;
+}
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 400px !important;
+}
+
+.team-members-tow figure {
+    position: relative;
+    cursor: pointer;
+}
+.team-members-tow figure:hover .image-overlay {
+    opacity: 1;
+}
+.team-members-tow figure:hover .info-text {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.team-members-tow figure:hover .social-icons {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.team-members-tow .image-overlay {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(55, 166, 116, 0.85);
+    opacity: 0;
+    width: 270px;
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
+.team-members-tow .overlay-text {
+    color: #ffffff;
+    padding-top: 25%}
+.team-members-tow .overlay-text .info-text {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
+.team-members-tow .overlay-text .info-text strong {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.team-members-tow .overlay-text .info-text span {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+.team-members-tow .overlay-text .small-divider {
+    margin-bottom: 30px;
+    border-color: #fff;
+    margin-top: 30px;
+    width: 50px;
+}
+.team-members-tow .social-icons {
+    padding-left: 0;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
+.team-members-tow .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.team-members-tow .social-icons li a i {
+    font-size: 24px;
+    color: #fff;
+}
+.team-members-tow .social-icons .fa-facebook:hover {
+    color: #3b5998;
+}
+.team-members-tow .social-icons .fa-twitter:hover {
+    color: #55acee;
+}
+.team-members-tow .social-icons .fa-instagram:hover {
+    color: #fb3958;
+}
+.team-members-tow .social-icons .fa-linkedin:hover {
+    color: #0073B1;
+}
+
+.img-crop{
+    height: 270px;
+    width: 270px;
+    overflow: hidden;
+}
+
+/*kontak*/
+
+.team-kontak{
+    margin-top: 60px;
+}
+.carousel-crop{
+    height: 270px;
+    width: 100%;
+    overflow: hidden;
+}
+/*kontak informasi*/
+.contact-info-title {
+  color: #444;
+  font-size: 24px;
+  margin-bottom: 25px; }
+
+.contact-info a {
+  display: block;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 10px;
+  position: relative;
+  font-weight: 400; 
+}
+
+.contact-info a i {
+  margin-right: 10px; 
+}
+
+.contact-info address {
+position: relative;
+margin-bottom: 15px; }
+
+address {
+font-size: 14px;
+color: #444;
+line-height: 1.8; }
+address i {
+  margin-right: 10px; }
+
+.tel-info {
+margin-bottom: 15px; }
+
+.social-links li {
+display: inline-block;
+padding-left: -20px; }
+.social-links li a {
+color: #444;
+font-size: 18px;
+padding-start: 0;
+margin: 10px 20px 0 0; }
+.gform{
+  width: 20%;
+}
+.footer{
+    background-color: #32D7B4;
+    padding-top: 10px;
+}
+.footer h6{
+    color: white;
+}

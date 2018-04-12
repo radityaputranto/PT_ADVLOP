@@ -39,17 +39,17 @@
 
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Blog</a>
+                <a class="nav-link" href="http://blog.advlop.com/">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="produk.html">Produk</a>
+                <a class="nav-link" href="produk.php">Produk</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+              <li class="nav-item ">
+                <a class="nav-link" href="http://team.advlop.com/">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#kontak">Kontak</a>
@@ -67,7 +67,7 @@
             <div class="col-xs-12 col-sm-6 gerak aos-item" data-aos="fade-left">
               <div class="hero-content-v2">
                 <h3 ><strong>ADVLOP</strong></h3>
-                <p >ADVLOP adalah startup teknologi yang bergerak di bidang internet of things. Berdiri pada pertengahan tahun 2017 , kami adalah orang yang memiliki background profesional dengan pengalaman di bidang IT dan Elektronika.
+                <p >Atlas Development Indonesia (Atlasnesia) adalah Development House yang berbasis di Surabaya dan didirikan pada tahun 2016. 
                 </p>
                 <a href="#about" class="btn btn-lg btn-white">Learn More</a>
                 <a href="https://goo.gl/forms/2AnQSnhuEy33effu2" class="btn btn-lg btn-common-invert">Pesan Produk</a>
@@ -98,22 +98,22 @@
             <div class="col-sm-4 col-md-4 gerak aos-item" data-aos="fade-left">
               <div class="about block text-center">
                 <img src="assets/cctv.png" alt="">
-                <h5><a href="#">Internet of Things</a></h5>
-                <p>Konsep dasar yang menghubungkan perangkat apapun satu sama lain.</p>
+                <h5><a href="#">CCTV</a></h5>
+                <p>Monitoring tempat anda menggunakan CCTV yang terhubung dengan  smartphone secara realtime.</p>
               </div>
             </div>
             <div class="col-sm-4 col-md-4 gerak  aos-item" data-aos="fade-up">
               <div class="about block text-center ">
                 <img src="assets/kasir.png" alt="">
-                <h5><a href="#">FINTECH</a></h5>
-                <p>Inovasi teknologi dalam bidang jasa keuangan.</p>
+                <h5><a href="#">CASHIER</a></h5>
+                <p>Pengelolahan pesanan dan pembelian pada usaha F&B dengan point of sales.</p>
               </div>
             </div>
             <div class="col-sm-4 col-md-4 gerak  aos-item" data-aos="fade-right">
               <div class="about block text-center ">
                 <img src="assets/android.png" alt="" style="height: 100px;">
-                <h5><a href="#">ISM</a></h5>
-                <p>Information System Management adalah pengelohan bisnis menggunakan konsep teknologi.</p>
+                <h5><a href="#">SLON</a></h5>
+                <p>Menyimpan seluruh transaksi antara mesin pengisian nitrogen secara mobile pada smartphone.</p>
               </div>
             </div>
           </div>
@@ -137,19 +137,19 @@
           </div><br><br><br><!-- akhir video slon -->
 
           <!-- bagian video EZPY -->
-           <!-- <div class="row row-padded row-bordered row-centered gerak" >
+           <div class="row row-padded row-bordered row-centered gerak" >
             
             <div class="col-sm-6 aos-item" data-aos="fade-left">
               <h3><strong>EzPY</strong></h3>
               <p class="m-b-md">Sebuah platform untuk payment gateway antara penjual dan pembeli dengan menggunakan hardware EzPY reader (NFC Reader) untuk membaca kartu kredit , kartu debit, T-cash, Qr code payment, dsb.</p>
-               <a class="btn btn-common" target="_blank" href="comingsoon.html">Read More</a>
+               <a class="btn btn-common" target="_blank" href="comingsoon.php">Read More</a>
             </div>
 
             <div class="col-sm-6 aos-item" data-aos="fade-right">
               <iframe width="100%" height="230" src="https://www.youtube.com/embed/VkVR1W1jk80" frameborder="0"  allowfullscreen></iframe>
             </div>
             
-          </div> --><br><br><br><!-- akhir video EZPY -->
+          </div><br><br><br><!-- akhir video EZPY -->
 
 
             <!-- customer -->  
@@ -172,16 +172,13 @@
                         All 
                       </a>
                       <a class="filter btn btn-common" data-filter=".slon">
-                        Lamangon 
+                        SLON 
                       </a>
                       <a class="filter btn btn-common" data-filter=".CCTV">
-                        Sidoarjo
+                        CCTV
                       </a>
                       <a class="filter btn btn-common" data-filter=".kasir">
-                        Gresik 
-                      </a>
-                      <a class="filter btn btn-common" data-filter=".kasir">
-                        Madura
+                        CASHIER 
                       </a>
                       
                     </div>
@@ -372,7 +369,7 @@
           <!-- Blog Item Starts -->
           <div class="blog-item-wrapper">
             <div class="blog-item-img">
-              <a href="single-post.html"><img src="img/blog/home/img1.jpg"></a>
+              <a href="single-post.php"><img src="img/blog/home/img1.jpg"></a>
             </div>
             <div class="blog-item-text">
               <h3>
@@ -385,7 +382,7 @@
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="single-post.html" class="btn btn-common btn-rm">Read More</a>
+              <a href="single-post.php" class="btn btn-common btn-rm">Read More</a>
             </div>
           </div>
           <!-- Blog Item Wrapper Ends-->
@@ -395,7 +392,7 @@
           <!-- Blog Item Starts -->
           <div class="blog-item-wrapper">
             <div class="blog-item-img">
-              <a href="single-post.html"><img src="img/blog/home/img2.jpg"></a>
+              <a href="single-post.php"><img src="img/blog/home/img2.jpg"></a>
             </div>
             <div class="blog-item-text">
               <h3>
@@ -408,7 +405,7 @@
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="single-post.html" class="btn btn-common btn-rm">Read More</a>
+              <a href="single-post.php" class="btn btn-common btn-rm">Read More</a>
             </div>
           </div>
           <!-- Blog Item Wrapper Ends-->
@@ -418,7 +415,7 @@
           <!-- Blog Item Starts -->
           <div class="blog-item-wrapper">
             <div class="blog-item-img">
-              <a href="single-post.html"><img src="img/blog/home/img3.jpg"></a>
+              <a href="single-post.php"><img src="img/blog/home/img3.jpg"></a>
             </div>
             <div class="blog-item-text">
               <h3>
@@ -431,7 +428,7 @@
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="single-post.html" class="btn btn-common btn-rm">Read More</a>
+              <a href="single-post.php" class="btn btn-common btn-rm">Read More</a>
             </div>
           </div>
           <!-- Blog Item Wrapper Ends-->
